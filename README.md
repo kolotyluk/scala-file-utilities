@@ -8,6 +8,6 @@ This repo is still under development...
 
 A Traversable That Walks the File System. Currently uses java.nio.Files.walkFileTree, but more Scala friendly in terms of a Traversable collection.
 
-## Duplicate Finder
+## DuplicateFinder
 
 Utilities for Finding Duplicate Files. Traverse the file system looking for duplicate files, and return all groups of duplicate files found. As much as possible, comparisons are performed in parallel to improve performance.
